@@ -49,7 +49,7 @@ int maximum(int a, int b) {
 void read_file(std::vector<std::vector<int>> &output) {
     //open file
     std::ifstream file;
-    file.open("shopping.txt");
+    file.open("act.txt");
 
     //init variables
     std::string line;

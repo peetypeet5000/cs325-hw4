@@ -9,6 +9,14 @@
 #include <chrono>
 #include <sys/time.h>
 
+//NEW FOR HOMEWORK 4
+struct activity {
+    int activity_number;
+    int start_time;
+    int end_time;
+};
+
+
 //NEW FOR HOMEWORK 3
 std::vector<int> generate_array(int, int, int);
 int maximum(int a, int b);
