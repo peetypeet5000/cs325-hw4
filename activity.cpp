@@ -15,7 +15,7 @@ int main() {
     read_file(data);
 
     int line_in_data = 0;
-    int set = 0;
+    int set = 1;
 
     //For each test case
     do {
